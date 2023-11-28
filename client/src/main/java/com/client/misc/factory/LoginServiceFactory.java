@@ -1,7 +1,7 @@
-package com.grace.client.misc.factory;
+package com.client.misc.factory;
 
-import com.grace.client.misc.LoginService;
-import com.grace.client.registry.RegistryService;
+import com.client.misc.LoginService;
+import com.client.registry.RegistryService;
 
 import java.lang.reflect.Constructor;
 import java.util.Properties;
@@ -23,7 +23,7 @@ public class LoginServiceFactory {
     public static LoginService createLoginService(String consoleAddress) {
         try {
             Class<?> graceLoginServiceClass =
-                    Class.forName("com.grace.client.misc.GraceLoginService");
+                    Class.forName("com.client.misc.GraceLoginService");
             Constructor<?> constructor = graceLoginServiceClass.getConstructor(String.class);
             return (LoginService) constructor.newInstance(consoleAddress);
         } catch (Exception e) {
@@ -40,7 +40,7 @@ public class LoginServiceFactory {
     public static LoginService createLoginService(Properties properties) {
         try {
             Class<?> graceLoginServiceClass =
-                    Class.forName("com.grace.client.misc.GraceLoginService");
+                    Class.forName("com.client.misc.GraceLoginService");
             Constructor<?> constructor = graceLoginServiceClass.getConstructor(Properties.class);
             return (LoginService)constructor.newInstance(properties);
         } catch (Throwable e) {

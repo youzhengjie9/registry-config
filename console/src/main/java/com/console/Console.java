@@ -1,6 +1,6 @@
 package com.console;
 
-import com.grace.common.executor.NameThreadFactory;
+import com.common.executor.NameThreadFactory;
 import com.console.core.CheckAllEphemeralInstanceHeartBeatTask;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -22,7 +22,7 @@ import java.util.concurrent.TimeUnit;
  */
 @SpringBootApplication
 @EnableScheduling //开启定时任务
-public class Grace {
+public class Console {
 
     private ScheduledThreadPoolExecutor checkAllEphemeralInstanceHeartBeatThreadPool;
 
@@ -48,7 +48,7 @@ public class Grace {
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(Grace.class,args);
+        SpringApplication.run(Console.class,args);
     }
 
 

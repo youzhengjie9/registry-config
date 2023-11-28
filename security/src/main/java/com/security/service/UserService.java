@@ -1,12 +1,12 @@
-package com.grace.security.service;
+package com.security.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.grace.security.dto.UserFormDTO;
-import com.grace.common.vo.TokenVO;
-import com.grace.common.vo.UserInfoVO;
-import com.grace.common.dto.UserLoginDTO;
-import com.grace.security.entity.User;
-import com.grace.security.entity.UserRole;
+import com.common.dto.UserLoginDTO;
+import com.common.vo.TokenVO;
+import com.common.vo.UserInfoVO;
+import com.security.dto.UserFormDTO;
+import com.security.entity.User;
+import com.security.entity.UserRole;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.List;

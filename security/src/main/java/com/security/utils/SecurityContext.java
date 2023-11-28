@@ -1,7 +1,7 @@
-package com.grace.security.utils;
+package com.security.utils;
 
-import com.grace.security.entity.User;
-import com.grace.security.users.GraceUser;
+import com.security.entity.User;
+import com.security.users.GraceUser;
 import org.springframework.security.core.context.SecurityContextHolder;
 
 /**

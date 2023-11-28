@@ -1,9 +1,9 @@
-package com.grace.security.handler;
+package com.security.handler;
 
 import com.alibaba.fastjson2.JSON;
-import com.grace.common.enums.ResultType;
-import com.grace.common.utils.Result;
-import com.grace.common.utils.WebUtil;
+import com.common.enums.ResultType;
+import com.common.utils.Result;
+import com.common.utils.WebUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.security.authentication.BadCredentialsException;

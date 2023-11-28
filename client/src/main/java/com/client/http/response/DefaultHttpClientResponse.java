@@ -1,6 +1,6 @@
-package com.grace.client.http.response;
+package com.client.http.response;
 
-import com.grace.client.http.param.ResponseHeader;
+import com.client.http.param.ResponseHeader;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.ParseException;

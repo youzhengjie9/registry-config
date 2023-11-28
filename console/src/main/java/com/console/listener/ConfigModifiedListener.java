@@ -1,7 +1,7 @@
-package com.grace.console.listener;
+package com.console.listener;
 
-import com.grace.console.cache.CacheConfigClientAddress;
-import com.grace.console.event.ConfigModifiedEvent;
+import com.console.cache.CacheConfigClientAddress;
+import com.console.event.ConfigModifiedEvent;
 import org.apache.http.client.methods.CloseableHttpResponse;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.impl.client.CloseableHttpClient;

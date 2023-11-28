@@ -1,4 +1,4 @@
-package com.grace.client.utils;
+package com.client.utils;
 
 import java.io.ByteArrayInputStream;
 import java.io.IOException;

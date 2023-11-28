@@ -1,9 +1,9 @@
-package com.grace.client.http.client;
+package com.client.http.client;
 
-import com.grace.client.http.config.HttpClientConfig;
-import com.grace.client.http.RestResult;
-import com.grace.client.http.param.RequestHeader;
-import com.grace.client.http.param.RequestParam;
+import com.client.http.config.HttpClientConfig;
+import com.client.http.param.RequestHeader;
+import com.client.http.param.RequestParam;
+import com.client.http.RestResult;
 
 import java.util.Map;
 

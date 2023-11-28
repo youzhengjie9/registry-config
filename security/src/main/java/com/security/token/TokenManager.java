@@ -1,4 +1,4 @@
-package com.grace.security.token;
+package com.security.token;
 
 import io.jsonwebtoken.Claims;
 import org.springframework.security.core.Authentication;

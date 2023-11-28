@@ -1,4 +1,4 @@
-package com.grace.client.exception;
+package com.client.exception;
 
 /**
  * grace客户端登录失败异常

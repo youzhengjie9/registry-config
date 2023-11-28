@@ -1,14 +1,14 @@
-package com.grace.client.http.client;
+package com.client.http.client;
 
-import com.grace.client.http.config.HttpClientConfig;
-import com.grace.client.http.convert.HttpClientResponseRestResultConverter;
-import com.grace.client.http.request.HttpClientRequest;
-import com.grace.common.constant.RequestMethodConstants;
-import com.grace.client.http.RestResult;
-import com.grace.client.http.param.RequestHeader;
-import com.grace.client.http.param.MediaType;
-import com.grace.client.http.param.RequestParam;
-import com.grace.client.http.response.HttpClientResponse;
+import com.client.http.config.HttpClientConfig;
+import com.client.http.param.MediaType;
+import com.client.http.param.RequestHeader;
+import com.client.http.param.RequestParam;
+import com.client.http.convert.HttpClientResponseRestResultConverter;
+import com.client.http.request.HttpClientRequest;
+import com.common.constant.RequestMethodConstants;
+import com.client.http.RestResult;
+import com.client.http.response.HttpClientResponse;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

@@ -1,9 +1,9 @@
-package com.grace.security.service;
+package com.security.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.grace.security.dto.RoleFormDTO;
-import com.grace.security.entity.Role;
-import com.grace.security.entity.RoleMenu;
+import com.security.dto.RoleFormDTO;
+import com.security.entity.Role;
+import com.security.entity.RoleMenu;
 
 import java.util.List;
 

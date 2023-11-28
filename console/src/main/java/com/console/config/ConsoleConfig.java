@@ -1,4 +1,4 @@
-package com.grace.console.config;
+package com.console.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

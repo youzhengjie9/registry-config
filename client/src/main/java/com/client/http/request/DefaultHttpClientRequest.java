@@ -1,14 +1,14 @@
-package com.grace.client.http.request;
+package com.client.http.request;
 
 import com.alibaba.fastjson2.JSON;
-import com.grace.common.constant.RequestHeaderConstants;
-import com.grace.common.enums.RequestMethod;
-import com.grace.client.http.config.HttpClientConfig;
-import com.grace.client.http.param.RequestHeader;
-import com.grace.client.http.param.MediaType;
-import com.grace.client.http.response.DefaultHttpClientResponse;
-import com.grace.client.http.response.HttpClientResponse;
-import com.grace.common.utils.StringUtils;
+import com.client.http.config.HttpClientConfig;
+import com.client.http.param.MediaType;
+import com.client.http.param.RequestHeader;
+import com.client.http.response.DefaultHttpClientResponse;
+import com.client.http.response.HttpClientResponse;
+import com.common.constant.RequestHeaderConstants;
+import com.common.enums.RequestMethod;
+import com.common.utils.StringUtils;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpEntityEnclosingRequest;
 import org.apache.http.NameValuePair;
@@ -24,9 +24,7 @@ import org.apache.http.message.BasicNameValuePair;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URI;
-import java.util.ArrayList;
 import java.util.Iterator;
-import java.util.List;
 import java.util.Map;
 
 /**

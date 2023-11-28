@@ -1,15 +1,15 @@
-package com.grace.console.controller;
+package com.console.controller;
 
-import com.grace.common.constant.Constants;
-import com.grace.common.constant.ParentMappingConstants;
-import com.grace.common.dto.ServiceDTO;
-import com.grace.common.entity.Service;
-import com.grace.common.utils.Result;
-import com.grace.console.core.GroupManager;
-import com.grace.console.vo.ServiceDetailVO;
-import com.grace.console.vo.ServiceListItem;
-import com.grace.console.vo.ServiceListVO;
-import com.grace.console.vo.ServiceNameListVO;
+import com.common.constant.Constants;
+import com.common.constant.ParentMappingConstants;
+import com.common.dto.ServiceDTO;
+import com.common.entity.Service;
+import com.common.utils.Result;
+import com.console.core.GroupManager;
+import com.console.vo.ServiceDetailVO;
+import com.console.vo.ServiceListItem;
+import com.console.vo.ServiceListVO;
+import com.console.vo.ServiceNameListVO;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 

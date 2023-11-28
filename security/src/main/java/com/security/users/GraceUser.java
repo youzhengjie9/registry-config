@@ -1,6 +1,6 @@
-package com.grace.security.users;
+package com.security.users;
 
-import com.grace.security.entity.User;
+import com.security.entity.User;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

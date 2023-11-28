@@ -1,11 +1,10 @@
-package com.grace.console.service.impl;
+package com.console.service.impl;
 
-import com.grace.common.dto.HeartBeat;
-import com.grace.common.entity.Instance;
-import com.grace.common.entity.Service;
-import com.grace.common.utils.Result;
-import com.grace.console.core.GroupManager;
-import com.grace.console.service.InstanceService;
+import com.common.dto.HeartBeat;
+import com.common.entity.Instance;
+import com.common.entity.Service;
+import com.console.core.GroupManager;
+import com.console.service.InstanceService;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -28,7 +27,7 @@ public class InstanceServiceImpl implements InstanceService {
     private final GroupManager groupManager = GroupManager.getGroupManagerSingleton();
 
     @Override
-    public boolean registerInstance(String namespaceId,String groupName,String serviceName,Instance instance) {
+    public boolean registerInstance(String namespaceId, String groupName, String serviceName, Instance instance) {
         // 如果命名空间不存在则创建该命名空间和分组
         groupManager.createNamespaceIfAbsent(namespaceId);
         // 如果服务不存在则创建服务

@@ -1,16 +1,16 @@
-package com.grace.console.service.impl;
+package com.console.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.update.LambdaUpdateWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.grace.common.entity.Config;
-import com.grace.common.entity.ConfigVersion;
-import com.grace.common.entity.builder.ConfigBuilder;
-import com.grace.common.utils.IpUtils;
-import com.grace.common.utils.SnowId;
-import com.grace.console.mapper.ConfigVersionMapper;
-import com.grace.console.service.ConfigService;
-import com.grace.console.service.ConfigVersionService;
-import com.grace.console.vo.ConfigVersionListItemVO;
+import com.common.entity.Config;
+import com.common.entity.ConfigVersion;
+import com.common.entity.builder.ConfigBuilder;
+import com.common.utils.IpUtils;
+import com.common.utils.SnowId;
+import com.console.mapper.ConfigVersionMapper;
+import com.console.service.ConfigVersionService;
+import com.console.vo.ConfigVersionListItemVO;
+import com.console.service.ConfigService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

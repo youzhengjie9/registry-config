@@ -1,11 +1,11 @@
-package com.grace.client.config.core;
+package com.client.config.core;
 
-import com.grace.client.config.ConfigService;
-import com.grace.client.config.factory.ConfigServiceFactory;
-import com.grace.client.properties.GraceConfigProperties;
-import com.grace.client.properties.GraceProperties;
-import com.grace.common.constant.Constants;
-import com.grace.common.dto.ClientAddressBindConfigDTO;
+import com.client.config.ConfigService;
+import com.client.config.factory.ConfigServiceFactory;
+import com.client.properties.GraceConfigProperties;
+import com.client.properties.GraceProperties;
+import com.common.constant.Constants;
+import com.common.dto.ClientAddressBindConfigDTO;
 import org.jetbrains.annotations.NotNull;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;

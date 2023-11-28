@@ -1,8 +1,8 @@
-package com.grace.console.mapper;
+package com.console.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.grace.common.entity.ConfigVersion;
-import com.grace.console.vo.ConfigVersionListItemVO;
+import com.common.entity.ConfigVersion;
+import com.console.vo.ConfigVersionListItemVO;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;

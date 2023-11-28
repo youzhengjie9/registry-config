@@ -1,9 +1,9 @@
-package com.grace.console.core;
+package com.console.core;
 
-import com.grace.common.constant.Constants;
-import com.grace.common.entity.Group;
-import com.grace.common.entity.Instance;
-import com.grace.common.entity.Service;
+import com.common.constant.Constants;
+import com.common.entity.Group;
+import com.common.entity.Instance;
+import com.common.entity.Service;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

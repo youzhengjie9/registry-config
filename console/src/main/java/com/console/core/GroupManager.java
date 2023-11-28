@@ -1,13 +1,13 @@
-package com.grace.console.core;
+package com.console.core;
 
-import com.grace.common.constant.Constants;
-import com.grace.common.entity.Group;
-import com.grace.common.entity.Instance;
-import com.grace.common.entity.Service;
-import com.grace.common.entity.builder.ServiceBuilder;
-import com.grace.common.dto.ServiceDTO;
-import com.grace.common.utils.JsonUtils;
-import com.grace.console.vo.ServiceDetailVO;
+import com.common.constant.Constants;
+import com.common.dto.ServiceDTO;
+import com.common.entity.Group;
+import com.common.entity.Instance;
+import com.common.entity.Service;
+import com.common.entity.builder.ServiceBuilder;
+import com.common.utils.JsonUtils;
+import com.console.vo.ServiceDetailVO;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

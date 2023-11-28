@@ -1,4 +1,4 @@
-package com.grace.console.event;
+package com.console.event;
 
 import org.springframework.context.ApplicationEvent;
 

@@ -1,8 +1,8 @@
-package com.grace.security.token.impl;
+package com.security.token.impl;
 
-import com.grace.common.constant.TokenTypeConstants;
-import com.grace.security.constant.JwtConstants;
-import com.grace.security.token.TokenManager;
+import com.common.constant.TokenTypeConstants;
+import com.security.constant.JwtConstants;
+import com.security.token.TokenManager;
 import io.jsonwebtoken.Claims;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;

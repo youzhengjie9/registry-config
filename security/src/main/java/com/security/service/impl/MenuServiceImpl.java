@@ -1,13 +1,13 @@
-package com.grace.security.service.impl;
+package com.security.service.impl;
 
 import com.alibaba.fastjson2.JSON;
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.grace.common.utils.SnowId;
-import com.grace.security.dto.MenuDTO;
-import com.grace.security.entity.Menu;
-import com.grace.security.mapper.MenuMapper;
-import com.grace.security.service.MenuService;
+import com.common.utils.SnowId;
+import com.security.dto.MenuDTO;
+import com.security.entity.Menu;
+import com.security.mapper.MenuMapper;
+import com.security.service.MenuService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.time.LocalDateTime;

@@ -1,12 +1,12 @@
-package com.grace.console.controller;
+package com.console.controller;
 
-import com.grace.common.constant.ParentMappingConstants;
-import com.grace.common.entity.Namespace;
-import com.grace.common.utils.Result;
-import com.grace.common.dto.CreateNamespaceDTO;
-import com.grace.common.dto.ModifyNamespaceDTO;
-import com.grace.console.service.NamespaceService;
-import com.grace.console.vo.NamespaceVO;
+import com.common.constant.ParentMappingConstants;
+import com.common.dto.CreateNamespaceDTO;
+import com.common.dto.ModifyNamespaceDTO;
+import com.common.entity.Namespace;
+import com.common.utils.Result;
+import com.console.service.NamespaceService;
+import com.console.vo.NamespaceVO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;

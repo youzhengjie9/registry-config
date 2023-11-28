@@ -1,7 +1,7 @@
-package com.grace.security.dto;
+package com.security.dto;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
-import com.grace.security.entity.Menu;
+import com.security.entity.Menu;
 
 import java.io.Serializable;
 

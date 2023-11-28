@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.grace.security.mapper.MenuMapper">
+<mapper namespace="com.security.mapper.MenuMapper">
 
-    <select id="getMenuListByUserId" resultType="com.grace.security.entity.Menu">
+    <select id="getMenuListByUserId" resultType="com.security.entity.Menu">
         SELECT
             DISTINCT sm.id,sm.parent_id,sm.menu_name,sm.path,sm.component,sm.visible,sm.type,sm.icon,sm.sort
         FROM
@@ -35,7 +35,7 @@
           AND sm.type != 0;
 
     </select>
-    <select id="getAllMenuPermission" resultType="com.grace.security.entity.Menu">
+    <select id="getAllMenuPermission" resultType="com.security.entity.Menu">
         SELECT sm.id,
                sm.parent_id,
                sm.menu_name,
@@ -52,7 +52,7 @@
         ORDER BY sm.sort
     </select>
 
-    <select id="getAssignMenuTreePermission" resultType="com.grace.security.entity.Menu">
+    <select id="getAssignMenuTreePermission" resultType="com.security.entity.Menu">
         SELECT sm.id, sm.parent_id, sm.menu_name, sm.visible, sm.type, sm.sort
         FROM sys_menu as sm
         WHERE del_flag = 0
@@ -60,7 +60,7 @@
           AND sm.visible = 0
         ORDER BY sm.sort
     </select>
-    <resultMap id="res1" type="com.grace.security.entity.Menu">
+    <resultMap id="res1" type="com.security.entity.Menu">
         <result property="id" column="menu_id"/>
     </resultMap>
     <select id="getRoleCheckedMenuByRoleId" resultMap="res1">
@@ -68,7 +68,7 @@
         FROM sys_role_menu
         WHERE role_id = #{roleId}
     </select>
-    <select id="onlySelectDirectory" resultType="com.grace.security.entity.Menu">
+    <select id="onlySelectDirectory" resultType="com.security.entity.Menu">
         SELECT *
         FROM sys_menu
         WHERE type = 0
@@ -76,7 +76,7 @@
           AND del_flag = 0
         ORDER BY sort
     </select>
-    <select id="onlySelectMenu" resultType="com.grace.security.entity.Menu">
+    <select id="onlySelectMenu" resultType="com.security.entity.Menu">
         SELECT *
         FROM sys_menu
         WHERE type = 1
@@ -91,7 +91,7 @@
           AND status = 0
           AND visible = 0;
     </select>
-    <select id="getRouterByUserId" resultType="com.grace.security.entity.Menu">
+    <select id="getRouterByUserId" resultType="com.security.entity.Menu">
         SELECT
             DISTINCT sm.path,sm.component
         FROM
@@ -108,11 +108,11 @@
           AND sm.type =1;
     </select>
 
-    <insert id="addMenu" parameterType="com.grace.security.entity.Menu">
+    <insert id="addMenu" parameterType="com.security.entity.Menu">
         INSERT INTO sys_menu
         VALUES (#{id},#{parentId},#{menuName},#{path},#{component},#{status},#{visible},#{perms},#{type},#{icon},#{createTime},#{updateTime},0,#{sort},#{remark})
     </insert>
-    <update id="modifyMenu" parameterType="com.grace.security.entity.Menu">
+    <update id="modifyMenu" parameterType="com.security.entity.Menu">
         UPDATE sys_menu
         SET parent_id=#{parentId},
             menu_name=#{menuName},

@@ -1,8 +1,8 @@
-package com.grace.console.service.impl;
+package com.console.service.impl;
 
-import com.grace.common.entity.Service;
-import com.grace.console.core.GroupManager;
-import com.grace.console.service.SvcService;
+import com.common.entity.Service;
+import com.console.core.GroupManager;
+import com.console.service.SvcService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

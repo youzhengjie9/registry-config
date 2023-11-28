@@ -1,4 +1,4 @@
-package com.grace.console.vo;
+package com.console.vo;
 
 import java.io.Serializable;
 

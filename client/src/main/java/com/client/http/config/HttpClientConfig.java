@@ -1,6 +1,6 @@
-package com.grace.client.http.config;
+package com.client.http.config;
 
-import com.grace.common.utils.ThreadUtils;
+import com.common.utils.ThreadUtils;
 
 import java.util.concurrent.TimeUnit;
 

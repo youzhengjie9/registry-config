@@ -1,8 +1,8 @@
-package com.grace.security.controller;
+package com.security.controller;
 
-import com.grace.common.constant.ParentMappingConstants;
-import com.grace.common.utils.Result;
-import com.grace.security.service.MenuTreeService;
+import com.common.constant.ParentMappingConstants;
+import com.common.utils.Result;
+import com.security.service.MenuTreeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.GetMapping;

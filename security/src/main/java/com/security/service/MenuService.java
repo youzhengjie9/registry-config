@@ -1,8 +1,9 @@
-package com.grace.security.service;
+package com.security.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.grace.security.dto.MenuDTO;
-import com.grace.security.entity.Menu;
+import com.security.dto.MenuDTO;
+import com.security.entity.Menu;
+
 import java.util.List;
 
 

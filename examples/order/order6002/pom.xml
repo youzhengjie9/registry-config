@@ -6,7 +6,8 @@
     <parent>
         <groupId>com.registry.config</groupId>
         <artifactId>order</artifactId>
-        <version>3.0.0</version>
+        <version>${revision}</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
 
     <artifactId>order6002</artifactId>
@@ -16,5 +17,13 @@
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
+    <dependencies>
+        <!--     客户端 -->
+        <dependency>
+            <groupId>com.registry.config</groupId>
+            <artifactId>client</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>

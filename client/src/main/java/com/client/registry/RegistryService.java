@@ -1,8 +1,8 @@
-package com.grace.client.registry;
+package com.client.registry;
 
-import com.grace.common.dto.HeartBeat;
-import com.grace.common.dto.RegisterInstanceDTO;
-import com.grace.common.entity.Instance;
+import com.common.dto.HeartBeat;
+import com.common.dto.RegisterInstanceDTO;
+import com.common.entity.Instance;
 
 import java.util.List;
 

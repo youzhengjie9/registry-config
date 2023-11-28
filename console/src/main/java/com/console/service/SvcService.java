@@ -1,6 +1,6 @@
-package com.grace.console.service;
+package com.console.service;
 
-import com.grace.common.entity.Service;
+import com.common.entity.Service;
 
 import java.util.List;
 

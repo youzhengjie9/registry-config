@@ -1,8 +1,8 @@
-package com.grace.console.service;
+package com.console.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.grace.common.entity.ConfigVersion;
-import com.grace.console.vo.ConfigVersionListItemVO;
+import com.common.entity.ConfigVersion;
+import com.console.vo.ConfigVersionListItemVO;
 import org.apache.ibatis.annotations.Param;
 
 import javax.servlet.http.HttpServletRequest;

@@ -1,4 +1,4 @@
-package com.grace.security.core;
+package com.security.core;
 
 import cn.hutool.core.util.ReUtil;
 import cn.hutool.extra.spring.SpringUtil;

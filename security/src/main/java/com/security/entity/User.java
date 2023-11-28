@@ -1,4 +1,4 @@
-package com.grace.security.entity;
+package com.security.entity;
 
 import com.baomidou.mybatisplus.annotation.*;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;

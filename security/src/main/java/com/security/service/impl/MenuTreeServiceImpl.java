@@ -1,9 +1,9 @@
-package com.grace.security.service.impl;
+package com.security.service.impl;
 
 import com.alibaba.fastjson2.JSON;
-import com.grace.security.entity.Menu;
-import com.grace.security.service.MenuService;
-import com.grace.security.service.MenuTreeService;
+import com.security.entity.Menu;
+import com.security.service.MenuService;
+import com.security.service.MenuTreeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import java.util.ArrayList;

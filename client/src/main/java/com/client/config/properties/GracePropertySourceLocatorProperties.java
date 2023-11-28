@@ -1,8 +1,8 @@
-package com.grace.client.config.properties;
+package com.client.config.properties;
 
-import com.grace.client.config.ConfigService;
-import com.grace.client.misc.LoginService;
-import com.grace.client.misc.TokenStorage;
+import com.client.config.ConfigService;
+import com.client.misc.LoginService;
+import com.client.misc.TokenStorage;
 
 /**
  * 由于使用ContextRefresher.refresh方法会重新加载GracePropertySourceLocator类,

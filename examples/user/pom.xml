@@ -6,10 +6,16 @@
     <parent>
         <groupId>com.registry.config</groupId>
         <artifactId>examples</artifactId>
-        <version>3.0.0</version>
+        <version>${revision}</version>
+        <relativePath>../pom.xml</relativePath>
     </parent>
 
     <artifactId>user</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>user7001</module>
+        <module>user7002</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>

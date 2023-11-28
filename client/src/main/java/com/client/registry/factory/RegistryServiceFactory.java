@@ -1,6 +1,6 @@
-package com.grace.client.registry.factory;
+package com.client.registry.factory;
 
-import com.grace.client.registry.RegistryService;
+import com.client.registry.RegistryService;
 
 import java.lang.reflect.Constructor;
 import java.util.Properties;
@@ -22,7 +22,7 @@ public class RegistryServiceFactory {
     public static RegistryService createRegistryService(String consoleAddress) {
         try {
             Class<?> graceRegistryServiceClass =
-                    Class.forName("com.grace.client.registry.GraceRegistryService");
+                    Class.forName("com.client.registry.GraceRegistryService");
             Constructor<?> constructor = graceRegistryServiceClass.getConstructor(String.class);
             return (RegistryService)constructor.newInstance(consoleAddress);
         } catch (Exception e) {
@@ -39,7 +39,7 @@ public class RegistryServiceFactory {
     public static RegistryService createRegistryService(Properties properties) {
         try {
             Class<?> graceRegistryServiceClass =
-                    Class.forName("com.grace.client.registry.GraceRegistryService");
+                    Class.forName("com.client.registry.GraceRegistryService");
             Constructor<?> constructor = graceRegistryServiceClass.getConstructor(Properties.class);
             return (RegistryService)constructor.newInstance(properties);
         } catch (Throwable e) {

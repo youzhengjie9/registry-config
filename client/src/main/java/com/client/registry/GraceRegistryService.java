@@ -1,15 +1,15 @@
-package com.grace.client.registry;
+package com.client.registry;
 
 import com.alibaba.fastjson2.JSON;
-import com.grace.client.http.Requester;
-import com.grace.client.http.RestResult;
-import com.grace.client.misc.TokenStorage;
-import com.grace.common.constant.Constants;
-import com.grace.common.constant.ParentMappingConstants;
-import com.grace.common.constant.RequestMethodConstants;
-import com.grace.common.dto.HeartBeat;
-import com.grace.common.dto.RegisterInstanceDTO;
-import com.grace.common.entity.Instance;
+import com.client.http.Requester;
+import com.client.http.RestResult;
+import com.client.misc.TokenStorage;
+import com.common.constant.Constants;
+import com.common.constant.ParentMappingConstants;
+import com.common.constant.RequestMethodConstants;
+import com.common.dto.HeartBeat;
+import com.common.dto.RegisterInstanceDTO;
+import com.common.entity.Instance;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

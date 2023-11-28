@@ -1,4 +1,4 @@
-package com.grace.client.misc;
+package com.client.misc;
 
 /**
  * 存储用户在客户端进行登录拿到的 accessToken和 refreshToken (这个类采用单例模式)

@@ -1,7 +1,7 @@
-package com.grace.security.token;
+package com.security.token;
 
-import com.grace.security.token.impl.CachedJwtTokenManager;
-import com.grace.security.token.impl.JwtTokenManager;
+import com.security.token.impl.CachedJwtTokenManager;
+import com.security.token.impl.JwtTokenManager;
 import io.jsonwebtoken.Claims;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;

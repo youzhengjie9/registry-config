@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.grace.security.mapper.RoleMapper">
+<mapper namespace="com.security.mapper.RoleMapper">
 
     <!--   这种增强版的分页sql的子查询一定要加上ORDER BY id，不然数据会不一致 -->
-    <select id="getRoleList" resultType="com.grace.security.entity.Role">
+    <select id="getRoleList" resultType="com.security.entity.Role">
         SELECT *
         FROM sys_role
         WHERE id >= (select id from sys_role ORDER BY id limit #{page},1)
@@ -15,13 +15,13 @@
         FROM sys_role
         WHERE del_flag=0
     </select>
-    <select id="getAllRole" resultType="com.grace.security.entity.Role">
+    <select id="getAllRole" resultType="com.security.entity.Role">
         SELECT *
         FROM sys_role
         WHERE del_flag = 0
         AND status=0
     </select>
-    <resultMap id="res1" type="com.grace.security.entity.Role">
+    <resultMap id="res1" type="com.security.entity.Role">
         <result property="id" column="role_id"/>
     </resultMap>
     <select id="getUserCheckedRoleByUserId" resultMap="res1">
@@ -49,7 +49,7 @@
         </foreach>
     </insert>
 
-    <select id="getRoleListByRoleName" resultType="com.grace.security.entity.Role">
+    <select id="getRoleListByRoleName" resultType="com.security.entity.Role">
         SELECT *
         FROM sys_role
         WHERE id >= (SELECT id FROM sys_role ORDER BY id limit #{page},1)

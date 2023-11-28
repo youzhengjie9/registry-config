@@ -1,6 +1,6 @@
-package com.grace.console.vo;
+package com.console.vo;
 
-import com.grace.common.entity.Instance;
+import com.common.entity.Instance;
 
 import java.io.Serializable;
 import java.util.List;

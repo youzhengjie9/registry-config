@@ -1,4 +1,4 @@
-package com.grace.client.misc.core;
+package com.client.misc.core;
 
 import org.springframework.boot.context.event.ApplicationStartingEvent;
 import org.springframework.context.ApplicationListener;

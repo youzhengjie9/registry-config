@@ -1,7 +1,7 @@
-package com.grace.client.properties;
+package com.client.properties;
 
-import com.grace.common.constant.Constants;
-import com.grace.common.enums.ConfigTypeEnum;
+import com.common.constant.Constants;
+import com.common.enums.ConfigTypeEnum;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**

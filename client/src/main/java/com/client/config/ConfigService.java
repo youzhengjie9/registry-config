@@ -1,9 +1,7 @@
-package com.grace.client.config;
+package com.client.config;
 
-import com.grace.common.dto.ClientAddressBindConfigDTO;
-import com.grace.common.entity.Config;
-
-import java.util.List;
+import com.common.dto.ClientAddressBindConfigDTO;
+import com.common.entity.Config;
 
 /**
  * 配置中心

@@ -1,8 +1,8 @@
-package com.grace.client.autoconfigure;
+package com.client.autoconfigure;
 
-import com.grace.client.properties.GraceProperties;
-import com.grace.client.properties.GraceRegistryProperties;
-import com.grace.client.registry.core.GraceRegistryApplicationRunner;
+import com.client.registry.core.GraceRegistryApplicationRunner;
+import com.client.properties.GraceProperties;
+import com.client.properties.GraceRegistryProperties;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

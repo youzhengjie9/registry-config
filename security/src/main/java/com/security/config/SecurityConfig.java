@@ -1,10 +1,10 @@
-package com.grace.security.config;
+package com.security.config;
 
 import cn.hutool.core.util.ArrayUtil;
-import com.grace.security.core.IgnoreAuthentication;
-import com.grace.security.filter.JwtAuthenticationFilter;
-import com.grace.security.handler.CustomAccessDeniedHandler;
-import com.grace.security.handler.CustomAuthenticationEntryPoint;
+import com.security.core.IgnoreAuthentication;
+import com.security.filter.JwtAuthenticationFilter;
+import com.security.handler.CustomAccessDeniedHandler;
+import com.security.handler.CustomAuthenticationEntryPoint;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -17,7 +17,6 @@ import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
-import org.springframework.security.web.access.AccessDeniedHandler;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
 
 /**

@@ -1,14 +1,13 @@
-package com.grace.security.users;
+package com.security.users;
 
-import com.grace.security.entity.User;
-import com.grace.security.mapper.UserMapper;
+import com.security.entity.User;
+import com.security.mapper.UserMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 

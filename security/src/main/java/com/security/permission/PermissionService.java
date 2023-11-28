@@ -1,4 +1,4 @@
-package com.grace.security.permission;
+package com.security.permission;
 
 import cn.hutool.core.util.ArrayUtil;
 import org.springframework.security.core.Authentication;

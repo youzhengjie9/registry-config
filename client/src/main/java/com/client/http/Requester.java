@@ -1,19 +1,15 @@
-package com.grace.client.http;
+package com.client.http;
 
-import com.grace.client.http.client.GraceRestTemplate;
-import com.grace.client.http.factory.GraceRestTemplateFactory;
-import com.grace.client.http.param.RequestHeader;
-import com.grace.client.http.param.RequestParam;
-import com.grace.client.properties.GraceRegistryProperties;
-import com.grace.common.constant.Constants;
-import com.grace.common.constant.URLPrefixConstants;
-import com.grace.common.utils.InternetAddressUtil;
+import com.client.http.client.GraceRestTemplate;
+import com.client.http.param.RequestHeader;
+import com.client.http.param.RequestParam;
+import com.client.http.factory.GraceRestTemplateFactory;
+import com.common.constant.URLPrefixConstants;
+import com.common.utils.InternetAddressUtil;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
 
-import java.util.Collections;
 import java.util.Map;
 import java.util.Properties;
 

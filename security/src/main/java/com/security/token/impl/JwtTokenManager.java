@@ -1,12 +1,12 @@
-package com.grace.security.token.impl;
+package com.security.token.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
-import com.grace.security.constant.JwtConstants;
-import com.grace.security.entity.User;
-import com.grace.security.mapper.UserMapper;
-import com.grace.security.service.MenuService;
-import com.grace.security.token.TokenManager;
-import com.grace.security.users.GraceUser;
+import com.security.constant.JwtConstants;
+import com.security.entity.User;
+import com.security.mapper.UserMapper;
+import com.security.service.MenuService;
+import com.security.token.TokenManager;
+import com.security.users.GraceUser;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;

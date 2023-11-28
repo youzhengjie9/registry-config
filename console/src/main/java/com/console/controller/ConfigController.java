@@ -1,16 +1,16 @@
-package com.grace.console.controller;
+package com.console.controller;
 
-import com.grace.common.constant.Constants;
-import com.grace.common.constant.ParentMappingConstants;
-import com.grace.common.dto.ClientAddressBindConfigDTO;
-import com.grace.common.dto.CloneConfigDTO;
-import com.grace.common.entity.Config;
-import com.grace.common.utils.PageData;
-import com.grace.common.utils.Result;
-import com.grace.common.dto.PublishConfigDTO;
-import com.grace.console.cache.CacheConfigClientAddress;
-import com.grace.console.service.ConfigService;
-import com.grace.console.vo.ConfigListItemVO;
+import com.common.constant.Constants;
+import com.common.constant.ParentMappingConstants;
+import com.common.dto.ClientAddressBindConfigDTO;
+import com.common.dto.CloneConfigDTO;
+import com.common.dto.PublishConfigDTO;
+import com.common.entity.Config;
+import com.common.utils.PageData;
+import com.common.utils.Result;
+import com.console.cache.CacheConfigClientAddress;
+import com.console.service.ConfigService;
+import com.console.vo.ConfigListItemVO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.FileSystemResource;
 import org.springframework.http.ResponseEntity;
@@ -200,7 +200,7 @@ public class ConfigController {
      */
     @PreAuthorize("@pms.hasPermission('config:clone')")
     @PostMapping("/cloneConfig")
-    public Result<Boolean> cloneConfig(@RequestBody CloneConfigDTO cloneConfigDTO,HttpServletRequest request){
+    public Result<Boolean> cloneConfig(@RequestBody CloneConfigDTO cloneConfigDTO, HttpServletRequest request){
         return Result.ok(configService.cloneConfig(cloneConfigDTO,request));
     }
 

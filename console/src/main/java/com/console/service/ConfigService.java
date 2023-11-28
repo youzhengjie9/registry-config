@@ -1,9 +1,9 @@
-package com.grace.console.service;
+package com.console.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.grace.common.dto.CloneConfigDTO;
-import com.grace.common.entity.Config;
-import com.grace.console.vo.ConfigListItemVO;
+import com.common.dto.CloneConfigDTO;
+import com.common.entity.Config;
+import com.console.vo.ConfigListItemVO;
 import org.springframework.core.io.FileSystemResource;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.multipart.MultipartFile;
@@ -117,7 +117,7 @@ public interface ConfigService extends IService<Config> {
      * @param request
      * @return {@link Boolean}
      */
-    Boolean cloneConfig(CloneConfigDTO cloneConfigDTO,HttpServletRequest request);
+    Boolean cloneConfig(CloneConfigDTO cloneConfigDTO, HttpServletRequest request);
 
 
     /**

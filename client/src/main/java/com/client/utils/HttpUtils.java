@@ -1,6 +1,6 @@
-package com.grace.client.utils;
+package com.client.utils;
 
-import com.grace.client.http.param.RequestParam;
+import com.client.http.param.RequestParam;
 
 import java.net.URI;
 import java.net.URISyntaxException;

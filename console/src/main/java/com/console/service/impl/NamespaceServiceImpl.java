@@ -1,15 +1,15 @@
-package com.grace.console.service.impl;
+package com.console.service.impl;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
 import com.baomidou.mybatisplus.core.conditions.update.LambdaUpdateWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.grace.common.constant.Constants;
-import com.grace.common.entity.Namespace;
-import com.grace.console.core.GroupManager;
-import com.grace.console.mapper.ConfigMapper;
-import com.grace.console.mapper.NamespaceMapper;
-import com.grace.console.service.NamespaceService;
-import com.grace.console.vo.NamespaceVO;
+import com.common.constant.Constants;
+import com.common.entity.Namespace;
+import com.console.core.GroupManager;
+import com.console.mapper.ConfigMapper;
+import com.console.vo.NamespaceVO;
+import com.console.mapper.NamespaceMapper;
+import com.console.service.NamespaceService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

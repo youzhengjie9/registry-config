@@ -1,9 +1,7 @@
-package com.grace.security.filter;
+package com.security.filter;
 
-import com.grace.security.constant.JwtConstants;
-import com.grace.security.service.UserService;
-import com.grace.security.token.TokenManagerDelegate;
-import io.jsonwebtoken.Claims;
+import com.security.constant.JwtConstants;
+import com.security.token.TokenManagerDelegate;
 import org.apache.commons.lang3.StringUtils;
 import org.jetbrains.annotations.NotNull;
 import org.slf4j.Logger;

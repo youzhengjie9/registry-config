@@ -1,7 +1,7 @@
-package com.grace.console.service;
+package com.console.service;
 
-import com.grace.common.dto.HeartBeat;
-import com.grace.common.entity.Instance;
+import com.common.dto.HeartBeat;
+import com.common.entity.Instance;
 
 import java.util.List;
 
@@ -51,7 +51,7 @@ public interface InstanceService {
      * @param serviceName serviceName
      * @return {@link List}<{@link Instance}>
      */
-    List<Instance> getAllInstance(String namespaceId,String groupName,String serviceName);
+    List<Instance> getAllInstance(String namespaceId, String groupName, String serviceName);
 
 
     /**

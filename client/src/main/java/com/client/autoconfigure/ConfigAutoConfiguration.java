@@ -1,9 +1,9 @@
-package com.grace.client.autoconfigure;
+package com.client.autoconfigure;
 
-import com.grace.client.config.core.ClientAddressBindConfig;
-import com.grace.client.config.core.SchedulePullConfig;
-import com.grace.client.config.endpoint.DynamicRefreshConfigEndpoint;
-import com.grace.client.properties.GraceConfigProperties;
+import com.client.config.endpoint.DynamicRefreshConfigEndpoint;
+import com.client.config.core.ClientAddressBindConfig;
+import com.client.config.core.SchedulePullConfig;
+import com.client.properties.GraceConfigProperties;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

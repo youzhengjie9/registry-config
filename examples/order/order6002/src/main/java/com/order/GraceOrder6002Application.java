@@ -1,6 +1,6 @@
-package com.grace.order;
+package com.order;
 
-import com.grace.order.entity.Product;
+import com.order.entity.Product;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;

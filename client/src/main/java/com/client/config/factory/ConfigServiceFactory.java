@@ -1,7 +1,6 @@
-package com.grace.client.config.factory;
+package com.client.config.factory;
 
-import com.grace.client.config.ConfigService;
-import com.grace.client.registry.RegistryService;
+import com.client.config.ConfigService;
 
 import java.lang.reflect.Constructor;
 import java.util.Properties;
@@ -24,7 +23,7 @@ public class ConfigServiceFactory {
     public static ConfigService createConfigService(String consoleAddress) {
         try {
             Class<?> graceConfigServiceClass =
-                    Class.forName("com.grace.client.config.GraceConfigService");
+                    Class.forName("com.client.config.GraceConfigService");
             Constructor<?> constructor = graceConfigServiceClass.getConstructor(String.class);
             return (ConfigService) constructor.newInstance(consoleAddress);
         } catch (Exception e) {
@@ -41,7 +40,7 @@ public class ConfigServiceFactory {
     public static ConfigService createConfigService(Properties properties) {
         try {
             Class<?> graceConfigServiceClass =
-                    Class.forName("com.grace.client.config.GraceConfigService");
+                    Class.forName("com.client.config.GraceConfigService");
             Constructor<?> constructor = graceConfigServiceClass.getConstructor(Properties.class);
             return (ConfigService) constructor.newInstance(properties);
         } catch (Throwable e) {

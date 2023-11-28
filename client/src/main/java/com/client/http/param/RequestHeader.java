@@ -1,9 +1,9 @@
-package com.grace.client.http.param;
+package com.client.http.param;
 
-import com.grace.common.constant.Constants;
-import com.grace.common.constant.RequestHeaderConstants;
-import com.grace.common.utils.MapUtil;
-import com.grace.common.utils.StringUtils;
+import com.common.constant.Constants;
+import com.common.constant.RequestHeaderConstants;
+import com.common.utils.MapUtil;
+import com.common.utils.StringUtils;
 
 import java.util.*;
 

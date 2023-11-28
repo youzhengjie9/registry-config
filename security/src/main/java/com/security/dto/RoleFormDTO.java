@@ -1,4 +1,4 @@
-package com.grace.security.dto;
+package com.security.dto;
 
 import org.hibernate.validator.constraints.Length;
 

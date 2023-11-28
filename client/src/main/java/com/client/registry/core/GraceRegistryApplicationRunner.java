@@ -1,13 +1,13 @@
-package com.grace.client.registry.core;
+package com.client.registry.core;
 
-import com.grace.client.properties.GraceProperties;
-import com.grace.client.properties.GraceRegistryProperties;
-import com.grace.client.registry.RegistryService;
-import com.grace.client.registry.factory.RegistryServiceFactory;
-import com.grace.common.constant.Constants;
-import com.grace.common.dto.HeartBeat;
-import com.grace.common.dto.RegisterInstanceDTO;
-import com.grace.common.executor.NameThreadFactory;
+import com.client.registry.RegistryService;
+import com.client.registry.factory.RegistryServiceFactory;
+import com.client.properties.GraceProperties;
+import com.client.properties.GraceRegistryProperties;
+import com.common.constant.Constants;
+import com.common.dto.HeartBeat;
+import com.common.dto.RegisterInstanceDTO;
+import com.common.executor.NameThreadFactory;
 import org.jetbrains.annotations.NotNull;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -19,7 +19,6 @@ import org.springframework.core.env.Environment;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;
-import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.ScheduledThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 

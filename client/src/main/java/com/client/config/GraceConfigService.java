@@ -1,17 +1,16 @@
-package com.grace.client.config;
+package com.client.config;
 
 import com.alibaba.fastjson2.JSON;
 import com.alibaba.fastjson2.JSONObject;
-import com.grace.client.http.Requester;
-import com.grace.client.http.RestResult;
-import com.grace.client.misc.TokenStorage;
-import com.grace.common.constant.Constants;
-import com.grace.common.constant.ParentMappingConstants;
-import com.grace.common.constant.RequestMethodConstants;
-import com.grace.common.dto.ClientAddressBindConfigDTO;
-import com.grace.common.entity.Config;
+import com.client.http.Requester;
+import com.client.http.RestResult;
+import com.client.misc.TokenStorage;
+import com.common.constant.Constants;
+import com.common.constant.ParentMappingConstants;
+import com.common.constant.RequestMethodConstants;
+import com.common.dto.ClientAddressBindConfigDTO;
+import com.common.entity.Config;
 
-import java.util.List;
 import java.util.Map;
 import java.util.Properties;
 import java.util.concurrent.ConcurrentHashMap;

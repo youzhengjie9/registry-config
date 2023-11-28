@@ -1,7 +1,7 @@
-package com.grace.client.misc;
+package com.client.misc;
 
-import com.grace.common.dto.UserLoginDTO;
-import com.grace.common.vo.TokenVO;
+import com.common.dto.UserLoginDTO;
+import com.common.vo.TokenVO;
 
 public interface LoginService {
 

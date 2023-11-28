@@ -1,7 +1,7 @@
-package com.grace.client.http;
+package com.client.http;
 
-import com.grace.client.http.param.ResponseHeader;
-import com.grace.common.utils.Result;
+import com.client.http.param.ResponseHeader;
+import com.common.utils.Result;
 
 /**
  * GraceRestTemplate的响应结果

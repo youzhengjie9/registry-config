@@ -1,4 +1,4 @@
-package com.grace.client.config.cache.entity;
+package com.client.config.cache.entity;
 
 import java.io.Serializable;
 

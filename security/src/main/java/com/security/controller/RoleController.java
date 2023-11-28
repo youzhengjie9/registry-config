@@ -1,14 +1,14 @@
-package com.grace.security.controller;
+package com.security.controller;
 
-import com.grace.common.constant.ParentMappingConstants;
-import com.grace.common.utils.PageData;
-import com.grace.common.utils.Result;
-import com.grace.common.utils.SnowId;
-import com.grace.security.dto.AssignMenuDTO;
-import com.grace.security.dto.RoleFormDTO;
-import com.grace.security.entity.Role;
-import com.grace.security.entity.RoleMenu;
-import com.grace.security.service.RoleService;
+import com.common.constant.ParentMappingConstants;
+import com.common.utils.PageData;
+import com.common.utils.Result;
+import com.common.utils.SnowId;
+import com.security.dto.AssignMenuDTO;
+import com.security.dto.RoleFormDTO;
+import com.security.entity.Role;
+import com.security.entity.RoleMenu;
+import com.security.service.RoleService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;

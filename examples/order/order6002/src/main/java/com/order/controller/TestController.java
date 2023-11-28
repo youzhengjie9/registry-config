@@ -1,7 +1,7 @@
-package com.grace.order.controller;
+package com.order.controller;
 
 import com.alibaba.fastjson2.JSONObject;
-import com.grace.order.entity.Product;
+import com.order.entity.Product;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.cloud.context.config.annotation.RefreshScope;

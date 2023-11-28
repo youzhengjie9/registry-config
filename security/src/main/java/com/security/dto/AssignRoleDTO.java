@@ -1,6 +1,6 @@
-package com.grace.security.dto;
+package com.security.dto;
 
-import com.grace.security.entity.Role;
+import com.security.entity.Role;
 
 import javax.validation.constraints.NotBlank;
 import java.io.Serializable;

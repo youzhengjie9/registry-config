@@ -1,8 +1,8 @@
-package com.grace.client.http.entity;
+package com.client.http.entity;
 
-import com.grace.client.http.config.HttpClientConfig;
-import com.grace.client.http.param.RequestHeader;
-import com.grace.client.http.param.RequestParam;
+import com.client.http.param.RequestHeader;
+import com.client.http.param.RequestParam;
+import com.client.http.config.HttpClientConfig;
 
 import java.util.Map;
 

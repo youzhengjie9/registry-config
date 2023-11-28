@@ -1,9 +1,9 @@
-package com.grace.client.http.factory;
+package com.client.http.factory;
 
-import com.grace.client.http.client.GraceRestTemplate;
-import com.grace.client.http.config.HttpClientConfig;
-import com.grace.client.http.request.DefaultHttpClientRequest;
-import com.grace.client.http.request.HttpClientRequest;
+import com.client.http.client.GraceRestTemplate;
+import com.client.http.config.HttpClientConfig;
+import com.client.http.request.DefaultHttpClientRequest;
+import com.client.http.request.HttpClientRequest;
 import org.apache.http.client.config.RequestConfig;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;

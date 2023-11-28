@@ -1,13 +1,13 @@
-package com.grace.client.config.core;
+package com.client.config.core;
 
-import com.grace.client.config.ConfigService;
-import com.grace.client.config.cache.CacheConfigManager;
-import com.grace.client.config.cache.entity.CacheConfig;
-import com.grace.client.config.factory.ConfigServiceFactory;
-import com.grace.client.properties.GraceConfigProperties;
-import com.grace.client.properties.GraceProperties;
-import com.grace.common.entity.Config;
-import com.grace.common.executor.NameThreadFactory;
+import com.client.config.ConfigService;
+import com.client.config.cache.CacheConfigManager;
+import com.client.config.cache.entity.CacheConfig;
+import com.client.config.factory.ConfigServiceFactory;
+import com.client.properties.GraceConfigProperties;
+import com.client.properties.GraceProperties;
+import com.common.entity.Config;
+import com.common.executor.NameThreadFactory;
 import org.jetbrains.annotations.NotNull;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

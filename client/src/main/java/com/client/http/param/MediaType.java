@@ -1,7 +1,7 @@
-package com.grace.client.http.param;
+package com.client.http.param;
 
-import com.grace.common.constant.Constants;
-import com.grace.common.utils.StringUtils;
+import com.common.constant.Constants;
+import com.common.utils.StringUtils;
 
 /**
  * 媒体类型。决定浏览器将以什么形式、什么编码对资源进行解析

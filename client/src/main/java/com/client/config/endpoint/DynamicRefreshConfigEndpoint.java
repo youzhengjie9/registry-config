@@ -1,6 +1,6 @@
-package com.grace.client.config.endpoint;
+package com.client.config.endpoint;
 
-import com.grace.common.utils.Result;
+import com.common.utils.Result;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.cloud.context.refresh.ContextRefresher;

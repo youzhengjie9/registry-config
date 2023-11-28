@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper namespace="com.grace.security.mapper.UserMapper">
+<mapper namespace="com.security.mapper.UserMapper">
 
     <!--   通过sql标签抽取重复的字段进行复用 -->
     <sql id="userField1">
@@ -12,7 +12,7 @@
     </sql>
 
     <!--   这种增强版的分页sql的子查询一定要加上ORDER BY id，不然数据会不一致 -->
-    <select id="getUserList" resultType="com.grace.security.entity.User">
+    <select id="getUserList" resultType="com.security.entity.User">
         SELECT
         <include refid="userField1"/>
         FROM sys_user
@@ -25,7 +25,7 @@
     </select>
 
     <!--   这种增强版的分页sql的子查询一定要加上ORDER BY id，不然数据会不一致 -->
-    <select id="getUserListByUsername" resultType="com.grace.security.entity.User">
+    <select id="getUserListByUsername" resultType="com.security.entity.User">
         SELECT
         <include refid="userField1"/>
         FROM sys_user
@@ -57,7 +57,7 @@
         WHERE user_id=#{userId}
     </delete>
 
-    <update id="modifyUser" parameterType="com.grace.security.entity.User">
+    <update id="modifyUser" parameterType="com.security.entity.User">
         UPDATE sys_user SET username=#{username},
         <if test="password != null and password != ''">
             password=#{password},
@@ -67,7 +67,7 @@
         WHERE id =#{id}
     </update>
 
-    <select id="getUserByUserName" resultType="com.grace.security.entity.User">
+    <select id="getUserByUserName" resultType="com.security.entity.User">
         SELECT * FROM sys_user WHERE username = #{username} AND status = 0
     </select>
 

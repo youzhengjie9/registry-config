@@ -1,4 +1,4 @@
-package com.grace.order.entity;
+package com.order.entity;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 

@@ -1,6 +1,6 @@
-package com.grace.client.config.cache;
+package com.client.config.cache;
 
-import com.grace.client.config.cache.entity.CacheConfig;
+import com.client.config.cache.entity.CacheConfig;
 
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;

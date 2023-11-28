@@ -1,4 +1,4 @@
-package com.grace.client.http.param;
+package com.client.http.param;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLEncoder;

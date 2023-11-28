@@ -1,7 +1,6 @@
-package com.grace.client.http.response;
+package com.client.http.response;
 
-import com.grace.client.http.param.RequestHeader;
-import com.grace.client.http.param.ResponseHeader;
+import com.client.http.param.ResponseHeader;
 
 import java.io.IOException;
 

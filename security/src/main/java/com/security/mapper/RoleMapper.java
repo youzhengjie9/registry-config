@@ -1,8 +1,8 @@
-package com.grace.security.mapper;
+package com.security.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.grace.security.entity.Role;
-import com.grace.security.entity.RoleMenu;
+import com.security.entity.Role;
+import com.security.entity.RoleMenu;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 import org.springframework.stereotype.Repository;

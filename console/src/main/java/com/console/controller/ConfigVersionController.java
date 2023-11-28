@@ -1,14 +1,14 @@
-package com.grace.console.controller;
+package com.console.controller;
 
-import com.grace.common.constant.Constants;
-import com.grace.common.constant.ParentMappingConstants;
-import com.grace.common.entity.ConfigVersion;
-import com.grace.common.utils.Result;
-import com.grace.console.service.ConfigService;
-import com.grace.console.service.ConfigVersionService;
-import com.grace.console.utils.ConfigVersionListPageData;
-import com.grace.console.vo.ConfigVersionInputSuggestionDataVO;
-import com.grace.console.vo.ConfigVersionListItemVO;
+import com.common.constant.Constants;
+import com.common.constant.ParentMappingConstants;
+import com.common.entity.ConfigVersion;
+import com.common.utils.Result;
+import com.console.service.ConfigService;
+import com.console.service.ConfigVersionService;
+import com.console.utils.ConfigVersionListPageData;
+import com.console.vo.ConfigVersionInputSuggestionDataVO;
+import com.console.vo.ConfigVersionListItemVO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;

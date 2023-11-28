@@ -1,4 +1,4 @@
-package com.grace.security.service;
+package com.security.service;
 
 /**
  * 菜单树服务
