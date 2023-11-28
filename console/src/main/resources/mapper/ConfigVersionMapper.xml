@@ -29,7 +29,7 @@
           AND group_name = #{groupName}
           AND data_id = #{dataId}
     </select>
-    <select id="getConfigVersion" resultType="com.grace.common.entity.ConfigVersion">
+    <select id="getConfigVersion" resultType="com.common.entity.ConfigVersion">
         SELECT
             id,
             namespace_id,
@@ -46,7 +46,7 @@
         FROM sys_config_version
         WHERE id = #{configVersionId}
     </select>
-    <select id="getAllDataIdAndGroupName" resultType="com.grace.common.entity.ConfigVersion">
+    <select id="getAllDataIdAndGroupName" resultType="com.common.entity.ConfigVersion">
         SELECT
             data_id,
             group_name

@@ -67,7 +67,7 @@
         AND group_name = #{groupName}
         AND data_id = #{dataId}
     </select>
-    <select id="getConfigList" resultType="com.grace.common.entity.Config">
+    <select id="getConfigList" resultType="com.common.entity.Config">
         SELECT
             data_id,
             content,
