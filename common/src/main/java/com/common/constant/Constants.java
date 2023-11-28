@@ -18,12 +18,12 @@ public class Constants {
     /**
      * 默认帐号
      */
-    public static final String DEFAULT_USERNAME = "grace";
+    public static final String DEFAULT_USERNAME = "root";
 
     /**
      * 默认密码
      */
-    public static final String DEFAULT_PASSWORD = "grace";
+    public static final String DEFAULT_PASSWORD = "123456";
 
     public static final String NAMESPACE_ID = "namespaceId";
 

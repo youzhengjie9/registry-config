@@ -3,16 +3,16 @@ server:
 
 spring:
   application:
-    name: grace-user
+    name: user
 
 
 grace:
   # grace控制台（服务端）的ip地址
   console-address: 127.0.0.1:8848
-  # 登录grace控制台的用户名
-  username: grace
-  # 登录grace控制台的密码
-  password: grace
+  # 登录控制台的用户名
+  username: root
+  # 登录控制台的密码
+  password: 123456
   # 配置grace注册中心
   registry:
     # 命名空间id（将该服务的实例注册到哪个命名空间上）

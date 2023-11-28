@@ -4,267 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4761e91e-12d8-4333-b3dd-e5fecf84da02" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/client/autoconfigure/ConfigAutoConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/client/autoconfigure/RegistryAutoConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/client/config/ConfigService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/client/config/GraceConfigService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/client/config/cache/CacheConfigManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/client/config/cache/entity/CacheConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/client/config/core/ClientAddressBindConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/client/config/core/GracePropertySourceLocator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/client/config/core/SchedulePullConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/client/config/endpoint/DynamicRefreshConfigEndpoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/client/config/factory/ConfigServiceFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/client/config/properties/GracePropertySourceLocatorProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/client/exception/GraceClientLoginException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/client/http/Requester.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/client/http/RestResult.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/client/http/client/GraceRestOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/client/http/client/GraceRestTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/client/http/config/HttpClientConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/client/http/convert/Converter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/client/http/convert/HttpClientResponseRestResultConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/client/http/convert/exception/ConvertException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/client/http/entity/RequestHttpEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/client/http/factory/GraceRestTemplateFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/client/http/param/MediaType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/client/http/param/RequestHeader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/client/http/param/RequestParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/client/http/param/ResponseHeader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/client/http/request/DefaultHttpClientRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/client/http/request/HttpClientRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/client/http/response/DefaultHttpClientResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/client/http/response/HttpClientResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/client/misc/GraceLoginService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/client/misc/LoginService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/client/misc/TokenStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/client/misc/core/GraceClientAutoLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/client/misc/factory/LoginServiceFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/client/properties/GraceConfigProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/client/properties/GraceProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/client/properties/GraceRegistryProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/client/registry/GraceRegistryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/client/registry/RegistryService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/client/registry/core/GraceRegistryApplicationRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/client/registry/factory/RegistryServiceFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/client/utils/HttpUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/client/utils/JsonUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/client/utils/PropertiesUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/client/utils/YamlUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/autoconfigure/UtilsAutoConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/config/MybatisPlusConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/constant/AESConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/constant/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/constant/ParentMappingConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/constant/PropertiesKeyConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/constant/PropertiesValueConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/constant/RequestHeaderConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/constant/RequestMethodConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/constant/ServiceConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/constant/TokenTypeConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/constant/URLPrefixConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/converter/DelFlagConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/converter/LocalDateConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/converter/LocalDateTimeConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/converter/MenuTypeConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/converter/StatusConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/converter/UserSexConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/converter/VisibleConverter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/dto/ClientAddressBindConfigDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/dto/CloneConfigDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/dto/CloneConfigItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/dto/CreateNamespaceDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/dto/HeartBeat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/dto/ModifyInstanceDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/dto/ModifyNamespaceDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/dto/PublishConfigDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/dto/RegisterInstanceDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/dto/ServiceDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/dto/UserLoginDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/entity/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/entity/ConfigVersion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/entity/Group.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/entity/Instance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/entity/Namespace.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/entity/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/entity/builder/ConfigBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/entity/builder/ConfigVersionBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/entity/builder/InstanceBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/entity/builder/NamespaceBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/entity/builder/ServiceBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/enums/ConfigOperationTypeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/enums/ConfigTypeEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/enums/RequestMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/enums/ResultType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/exception/NotLoginException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/exception/ParseTokenException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/exception/TokenExpiredException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/exception/UserNameOrPassWordException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/executor/NameThreadFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/utils/AbstractAssert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/utils/AbstractObjectUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/utils/ArrayUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/utils/BrowserUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/utils/ByteUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/utils/CollectionUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/utils/ConcurrentHashSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/utils/ConvertUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/utils/DateFormatUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/utils/EasyExcelUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/utils/InetAddressValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/utils/InternetAddressUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/utils/IoUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/utils/IpToAddressUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/utils/IpUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/utils/JsonUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/utils/LoggerUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/utils/MD5Utils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/utils/MapUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/utils/NumberUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/utils/Observable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/utils/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/utils/PageData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/utils/Pair.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/utils/Preconditions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/utils/PropertyUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/utils/RandomUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/utils/ReflectUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/utils/ResourceUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/utils/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/utils/SnowId.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/utils/SpringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/utils/StringUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/utils/ThreadFactoryBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/utils/ThreadUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/utils/TypeUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/utils/UuidUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/utils/VersionUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/utils/WebUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/vo/TokenVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/common/vo/UserInfoVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/console/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/console/src/main/java/com/console/Console.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/console/src/main/java/com/console/cache/CacheConfigClientAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/console/src/main/java/com/console/config/ConsoleConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/console/src/main/java/com/console/controller/ConfigController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/console/src/main/java/com/console/controller/ConfigVersionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/console/src/main/java/com/console/controller/InstanceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/console/src/main/java/com/console/controller/NamespaceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/console/src/main/java/com/console/controller/ServiceController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/console/src/main/java/com/console/core/CheckAllEphemeralInstanceHeartBeatTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/console/src/main/java/com/console/core/GroupManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/console/src/main/java/com/console/event/ConfigModifiedEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/console/src/main/java/com/console/listener/ConfigModifiedListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/console/src/main/java/com/console/mapper/ConfigMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/console/src/main/java/com/console/mapper/ConfigVersionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/console/src/main/java/com/console/mapper/NamespaceMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/console/src/main/java/com/console/service/ConfigService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/console/src/main/java/com/console/service/ConfigVersionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/console/src/main/java/com/console/service/InstanceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/console/src/main/java/com/console/service/NamespaceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/console/src/main/java/com/console/service/SvcService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/console/src/main/java/com/console/service/impl/ConfigServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/console/src/main/java/com/console/service/impl/ConfigVersionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/console/src/main/java/com/console/service/impl/InstanceServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/console/src/main/java/com/console/service/impl/NamespaceServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/console/src/main/java/com/console/service/impl/SvcServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/console/src/main/java/com/console/utils/ConfigVersionListPageData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/console/src/main/java/com/console/vo/ConfigListItemVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/console/src/main/java/com/console/vo/ConfigVersionInputSuggestionDataVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/console/src/main/java/com/console/vo/ConfigVersionListItemVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/console/src/main/java/com/console/vo/NamespaceVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/console/src/main/java/com/console/vo/ServiceDetailVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/console/src/main/java/com/console/vo/ServiceListItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/console/src/main/java/com/console/vo/ServiceListVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/console/src/main/java/com/console/vo/ServiceNameListVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/console/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/console/src/main/resources/mapper/ConfigMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/console/src/main/resources/mapper/ConfigVersionMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/console/src/main/resources/mapper/NamespaceMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/order/order6001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/order/order6001/src/main/java/com/order/GraceOrder6001Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/order/order6001/src/main/java/com/order/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/order/order6001/src/main/java/com/order/entity/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/order/order6001/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/order/order6001/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/order/order6001/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/order/order6002/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/order/order6002/src/main/java/com/order/GraceOrder6002Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/order/order6002/src/main/java/com/order/controller/TestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/order/order6002/src/main/java/com/order/entity/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/order/order6002/src/main/resources/application-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/order/order6002/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/order/order6002/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/order/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/user/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/user/user7001/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/user/user7001/src/main/java/com/user/GraceUser7001Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/user/user7001/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/user/user7002/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/user/user7002/src/main/java/com/user/GraceUser7002Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/examples/user/user7002/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/annotation/PermitAll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/autoconfigure/GraceSecurityAutoConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/constant/JwtConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/controller/ExportExcelController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/controller/MenuController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/controller/MenuTreeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/controller/RoleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/core/IgnoreAuthentication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/dto/AssignMenuDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/dto/AssignRoleDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/dto/MenuDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/dto/RoleFormDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/dto/UserFormDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/entity/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/entity/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/entity/RoleMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/entity/UserRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/filter/JwtAuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/handler/CustomAccessDeniedHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/handler/CustomAuthenticationEntryPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/mapper/MenuMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/mapper/RoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/permission/PermissionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/service/ExportExcelService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/service/MenuService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/service/MenuTreeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/service/RoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/service/impl/ExportExcelServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/service/impl/MenuServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/service/impl/MenuTreeServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/service/impl/RoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/token/TokenManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/token/TokenManagerDelegate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/token/impl/CachedJwtTokenManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/token/impl/JwtTokenManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/users/GraceUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/users/GraceUserDetailsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/java/com/security/utils/SecurityContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/resources/mapper/MenuMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/resources/mapper/RoleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/security/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
+    <list default="true" id="4761e91e-12d8-4333-b3dd-e5fecf84da02" name="Changes" comment="commit">
+      <change afterPath="$PROJECT_DIR$/doc/registry_config.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/console/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/console/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/order/order6001/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/examples/order/order6001/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/order/order6002/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/examples/order/order6002/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/user/user7001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/examples/user/user7001/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/user/user7002/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/examples/user/user7002/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -299,17 +46,17 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "jdk.selected.JAVA_MODULE": "1.8",
-    "last_opened_file_path": "C:/Users/youzhengjie666/Desktop/毕业论文/registry-config/examples/user/user7002/src/main/resources",
+    "last_opened_file_path": "C:/Users/youzhengjie666/Desktop/毕业论文/registry-config/doc",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\youzhengjie666\Desktop\毕业论文\registry-config\doc" />
       <recent name="C:\Users\youzhengjie666\Desktop\毕业论文\registry-config\examples\user\user7002\src\main\resources" />
       <recent name="C:\Users\youzhengjie666\Desktop\毕业论文\registry-config\examples\user\user7002\src\main\java" />
       <recent name="C:\Users\youzhengjie666\Desktop\毕业论文\registry-config\examples\user\user7001\src\main\resources" />
       <recent name="C:\Users\youzhengjie666\Desktop\毕业论文\registry-config\examples\user\user7001\src\main\java" />
-      <recent name="C:\Users\youzhengjie666\Desktop\毕业论文\registry-config\examples\order\order6002\src\main\resources" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -320,11 +67,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1701154715199</updated>
-      <workItem from="1701154716301" duration="5307000" />
+      <workItem from="1701154716301" duration="6419000" />
     </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1701162694812</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701162694812</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
 </project>
